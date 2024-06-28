@@ -1,0 +1,61 @@
+/* Arquivo CSS - file.css */
+
+/* Estiliza o corpo da página */
+body {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa a altura total da viewport */
+    margin: 0;
+}
+
+/* Estiliza a div com a classe .primaria */
+.primaria {
+    width: 380px; /* Largura desejada */
+    height: 500px; /* Altura desejada */
+    background-color: rgb(0, 204, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding dentro das dimensões da div */
+}
+
+.second {
+    background-color: rgb(128, 128, 128);
+    width: 100%; /* Largura total */
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: right;
+    padding: 10px; /* Espaçamento interno */
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+    margin-top: 20px;
+}
+
+/* Estilo para as linhas de botões */
+.linha {
+    display: flex;
+    justify-content: space-between; /* Espaço uniforme entre os botões */
+    width: 100%; /* Largura total */
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+/* Estilo para os botões */
+button {
+    height: 60px;
+    width: 60px;
+    font-size: 20px; /* Tamanho da fonte ajustado */
+}
+
+/* Estilo para a linha dos operadores */
+.operadores {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinha os itens à direita */
+    margin-top: 10px; /* Espaçamento superior */
+}
